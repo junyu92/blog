@@ -7,10 +7,14 @@ Welcome to junyu's blog's documentation!
 ========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
-   hello
+   gdb/python/introduction
+   gdb/python/command
+   gdb/python/function
+   gdb/python/parameter
+   gdb/python/frame
 
 Indices and tables
 ==================

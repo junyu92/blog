@@ -272,10 +272,10 @@ gdb.lookup_global_symbol
 Variables
 ---------------
 
-``gdb.Symbol``类型有下面的属性（部分）：
+``gdb.Symbol`` 类型有下面的属性（部分）：
 
 type
-  符号的类型，该类型的返回值是``gdb.Type``
+  符号的类型，该类型的返回值是 ``gdb.Type``
 
 symtab
   返回符号表（类型gdb.Symtab）

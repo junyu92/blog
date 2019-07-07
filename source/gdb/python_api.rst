@@ -1,5 +1,8 @@
-gdb python API
-=============
+GDB
+###############
+
+python API
+****************
 
 参考：
 http://sourceware.org/gdb/wiki/PythonGdbTutorial
@@ -15,7 +18,7 @@ http://sourceware.org/gdb/wiki/PythonGdbTutorial
 
 
 直接在gdb中使用python
--------------
+===================
 >>> (gdb) python print(42)
 42
 
@@ -27,10 +30,10 @@ http://sourceware.org/gdb/wiki/PythonGdbTutorial
 42
 
 重要模块
--------------
+==================
 
 breakpoints
-##############
+------------------
 Breakpoint.location
   断点的位置
 
@@ -143,7 +146,7 @@ get_set_string
   在GDB中 ``set`` 该参数时，会调用这个函数
 
 Function
-------------
+===============
 
 定义一个在gdb中可以使用的函数.
 
@@ -179,7 +182,7 @@ Function
 
 
 Command
--------------
+===============
 要定义一个能在GDB中调用的Command，需要创建一个class
 
 .. code-block:: python
@@ -198,7 +201,7 @@ Command
 在GDB中调用 *hello-world* 的时候, *invoke* 函数会被执行。
 
 实现一个COMMAND能够保存断点
-^^^^^^^^^^^^^^^^
+----------------------
 
 下面实现一个COMMAND，把所有的断点保存到文件中。
 
@@ -226,4 +229,4 @@ Command
 
 
 Frame
-==========
+===============

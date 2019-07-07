@@ -10,11 +10,7 @@ Welcome to junyu's blog's documentation!
    :maxdepth: 3
    :caption: Contents:
 
-   gdb/python/introduction
-   gdb/python/command
-   gdb/python/function
-   gdb/python/parameter
-   gdb/python/frame
+   gdb/python_api
 
 Indices and tables
 ==================

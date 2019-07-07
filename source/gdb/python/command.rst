@@ -1,5 +1,5 @@
 Command
-=======
+-------------
 要定义一个能在GDB中调用的Command，需要创建一个class
 
 .. code-block:: python
@@ -18,7 +18,7 @@ Command
 在GDB中调用 *hello-world* 的时候, *invoke* 函数会被执行。
 
 实现一个COMMAND能够保存断点
-#########
+^^^^^^^^^^^^^^^^
 
 下面实现一个COMMAND，把所有的断点保存到文件中。
 

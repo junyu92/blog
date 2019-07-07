@@ -41,7 +41,7 @@ Breakpoint.enabled
   断点是否启动，可写
 
 函数
-##############
+-------------
 
 gdb.execute
   执行GDB的command

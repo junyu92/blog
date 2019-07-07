@@ -230,3 +230,75 @@ Command
 
 Frame
 ===============
+
+frame就是函数调用栈，当进入一个新的函数时，就会创建一个frame。
+
+frame里面包含了传入的参数、局部变量以及正在执行的代码地址。
+
+Blocks
+===============
+
+在GDB中，symbols保存在blocks中。
+
+每个frame都有一个block
+
+* global block
+  记录了所有的全局变量和函数
+* static block
+  file-scoped的全局变量和函数
+
+函数
+----------------
+
+gdb.block_for_pc
+  根据pc或者block
+
+GDB中有两种objects:
+
+Symbols
+===============
+
+所有的variables, functions, types都是符号表中的一项。
+
+Functions
+---------------
+
+gdb.lookup_symbol
+  根据符号名找到symbol
+
+gdb.lookup_global_symbol
+  查找全局的符号
+
+Variables
+---------------
+
+``gdb.Symbol``类型有下面的属性（部分）：
+
+type
+  符号的类型，该类型的返回值是``gdb.Type``
+
+symtab
+  返回符号表（类型gdb.Symtab）
+
+line
+  符号在哪行被定义
+
+name
+  符号的名称
+
+needs_frame
+  指示该symbol的value是否需要frame。典型的，如果是局部变量那么需要frame。
+
+is_argument
+  True if the symbol is an argument of a function.
+
+is_constant
+  True if the symbol is a constant.
+
+is_function
+  True if the symbol is a function or a method.
+
+is_variable
+  True if the symbol is a variable.
+
+除了 ``gdb.Symtab`` 之前，还有一种类型为 ``gdb.Symtab_and_line`` 的符号表，它可以使用 ``find_sal`` 方法得到。

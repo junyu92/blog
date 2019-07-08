@@ -11,6 +11,8 @@ Welcome to junyu's blog's documentation!
    :caption: Contents:
 
    gdb/python_api
+   os/introduction
+   os/futex
 
 Indices and tables
 ==================

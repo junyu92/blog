@@ -11,7 +11,9 @@ Welcome to junyu's blog's documentation!
    :caption: Contents:
 
    gdb/python_api
+   
    idris/tutorial
+
    os/introduction
    os/futex
 

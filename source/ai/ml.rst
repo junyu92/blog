@@ -120,7 +120,7 @@ Mean square error(MSE)
   - :math:`(x,y)` is an example in which
 
     - :math:`x` is the set of features (for example, chirps/minute, age, gender)
-    that the model uses to make predictions.
+      that the model uses to make predictions.
 
     - :math:`y` is the example's label (for example, temperature).
 

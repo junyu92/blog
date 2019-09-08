@@ -18,7 +18,7 @@ http://sourceware.org/gdb/wiki/PythonGdbTutorial
 
 
 直接在gdb中使用python
-===================
+=====================
 >>> (gdb) python print(42)
 42
 
@@ -201,7 +201,7 @@ Command
 在GDB中调用 *hello-world* 的时候, *invoke* 函数会被执行。
 
 实现一个COMMAND能够保存断点
-----------------------
+---------------------------
 
 下面实现一个COMMAND，把所有的断点保存到文件中。
 

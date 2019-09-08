@@ -15,7 +15,8 @@ Welcome to junyu's blog's documentation!
    idris/tutorial
 
    os/introduction
-   os/futex
+
+   ai/ml
 
 Indices and tables
 ==================

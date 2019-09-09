@@ -133,3 +133,39 @@ Mean square error(MSE)
 
 Reducing Loss
 -------------------------------
+
+The learning continues iterating until the algorithm discovers the model parameters
+with the lowest possible loss.
+
+.. todo:
+
+  未完成的章节
+
+Gradient descent
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Convex problems have only one minimum; that is, only one place where the slope is exactly 0.
+That minimum is where the loss function converges.
+
+The first stage in gradient descent is to pick a starting value (a starting point) for :math:`w_1`.
+
+The gradient descent algorithm then calculates the gradient of the loss curve at the starting point.
+The gradient of loss is equal to the derivative (slope) of the curve, and tells you which way is
+"warmer" or "colder." When there are multiple weights, the **gradient** is a vector of partial derivatives
+with respect to the weights.
+
+Learning Rate
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Gradient descent algorithms multiply the gradient by a scalar known as the **learning rate**
+(also sometimes called **step size**) to determine the next point.
+
+Goldilocks learning rate
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Stochastic gradient descent
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Mini-Batch gradient descent
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+

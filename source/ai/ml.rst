@@ -125,7 +125,7 @@ Mean square error(MSE)
     - :math:`y` is the example's label (for example, temperature).
 
   - :math:`prediction(x)` is a function of the weights and bias in combination
-    with the set of features .
+    with the set of features.
 
   - :math:`D` is a data set containing many labeled examples, which are :math:`(x,y)` pairs.
 

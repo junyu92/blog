@@ -129,7 +129,7 @@ Mean square error(MSE)
 
   - :math:`D` is a data set containing many labeled examples, which are :math:`(x,y)` pairs.
 
-  - is the number of examples in :math:`D`.
+  - :math:`N` is the number of examples in :math:`D`.
 
 Reducing Loss
 -------------------------------
